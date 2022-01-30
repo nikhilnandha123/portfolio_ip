@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 28, 2022 at 10:26 AM
--- Server version: 10.4.20-MariaDB
--- PHP Version: 8.0.8
+-- Generation Time: Jan 30, 2022 at 07:19 AM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.1.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `library`
+-- Database: `tutorial13_library`
 --
 
 -- --------------------------------------------------------
@@ -71,11 +71,11 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `title`, `author`, `price`, `stock`, `titleurl`, `pendingstock`, `datetime`) VALUES
-(1, 'The Joy of PHP Programming', 'Alan Forbes', 200, 10, 'upload/flower-purple-lical-blosso.jpg', 10, '2019-02-16 00:02:09'),
-(2, ' PHP & MySQL Novice to Ninja', 'Kevin Yank', 156, 6, 'upload/flower-purple-lical-blosso.jpg', 4, '2019-02-18 01:39:47'),
-(3, 'Head First PHP & MySQL', 'Lynn Beighley & Michael Morrison', 650, 3, 'upload/flower-purple-lical-blosso.jpg', 2, '2019-02-16 00:02:20'),
+(1, 'The Joy of PHP Programming', 'Alan Forbes', 200, 10, 'images/30-01-2022_06-52-19_book2.jfif', 10, '2022-01-30 05:52:19'),
+(2, ' PHP & MySQL Novice to Ninja', 'Kevin Yank', 156, 6, 'images/30-01-2022_06-50-13_book1.jfif', 4, '2022-01-30 05:50:13'),
+(3, 'Head First PHP & MySQL', 'Lynn Beighley & Michael Morrison', 650, 3, 'images/30-01-2022_06-52-32_book3.jfif', 2, '2022-01-30 05:52:32'),
 (4, 'Learning PHP, MySQL, JavaScript, and CSS', 'Robin Nixon', 778, 1, 'upload/flower-purple-lical-blosso.jpg', 1, '2019-02-16 00:02:26'),
-(5, 'PHP & MySQL Web Development', 'Luke Welling & Laura Thompson', 340, 3, 'upload/flower-purple-lical-blosso.jpg', 2, '2019-02-16 00:02:31'),
+(5, 'PHP & MySQL Web Development', 'Luke Welling & Laura Thompson', 340, 10, 'images/30-01-2022_06-52-38_book4.jfif', 2, '2022-01-30 05:52:38'),
 (6, 'PHP: A Beginnerï¿½s Guide ', 'Vikram Vaswani', 245, 4, 'upload/flower-purple-lical-blosso.jpg', 2, '2019-02-16 00:02:36');
 
 -- --------------------------------------------------------
